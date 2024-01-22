@@ -7,11 +7,11 @@ import {
   PanResponder,
   View,
   Easing,
-  ViewPropTypes,
   I18nManager,
 } from 'react-native';
 
 import PropTypes from 'prop-types';
+import { ViewPropTypes } from 'deprecated-react-native-prop-types';
 
 const TRACK_SIZE = 4;
 const THUMB_SIZE = 20;
@@ -497,6 +497,7 @@ export default class Slider extends PureComponent {
     const { width, height } = this._getTouchOverflowSize();
 
     const touchOverflowStyle = {};
+    touchOverflowStyle.opacity = 0.5;
     if (width !== undefined && height !== undefined) {
       const verticalMargin = -height / 2;
       touchOverflowStyle.marginTop = verticalMargin;
@@ -562,7 +563,13 @@ export default class Slider extends PureComponent {
 
     if (!thumbImage) return;
 
-    return <Image source={thumbImage} />;
+    const { thumbStyle } = this.props;
+    const thumbImageStyle = {
+      width:thumbStyle.width || THUMB_SIZE,
+      height:thumbStyle.height || THUMB_SIZE
+    };
+
+    return <Image source={thumbImage}  style={thumbImageStyle} />;
   };
 }
 
