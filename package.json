@@ -1,11 +1,12 @@
 {
   "name": "jeanregisser-react-native-slider",
-  "version": "0.11.0-0.1.1",
+  "version": "0.11.0-0.1.2",
   "description": "A pure JavaScript <Slider /> component for react-native",
   "main": "lib/Slider.js",
   "files": [
     "lib",
-    "src"
+    "src",
+	"harmony"
   ],
   "author": "Jean Regisser <jean.regisser@gmail.com> (https://github.com/jeanregisser)",
   "harmony": {
