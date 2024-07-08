@@ -1,5 +1,5 @@
 {
-  "name": "jeanregisser-react-native-slider",
+  "name": "react-native-slider",
   "version": "0.11.0-0.1.3",
   "description": "A pure JavaScript <Slider /> component for react-native",
   "main": "lib/Slider.js",
