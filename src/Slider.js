@@ -11,7 +11,7 @@ import {
 } from 'react-native';
 
 import PropTypes from 'prop-types';
-import { ViewPropTypes } from 'deprecated-react-native-prop-types';
+import { ViewPropTypes, ImagePropTypes} from 'deprecated-react-native-prop-types';
 
 const TRACK_SIZE = 4;
 const THUMB_SIZE = 20;
@@ -146,7 +146,7 @@ export default class Slider extends PureComponent {
     /**
      * Sets an image for the thumb.
      */
-    thumbImage: Image.propTypes.source,
+    thumbImage: ImagePropTypes.source,
 
     /**
      * Set this to true to visually see the thumb touch rect in green.
