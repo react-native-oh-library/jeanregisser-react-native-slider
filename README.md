@@ -1,6 +1,6 @@
 # @react-native-oh-tpl/react-native-slider
 
-This project is based on [react-native-slider](https://github.com/jeanregisser/react-native-slider)
+This project is based on [react-native-slider@0.11.0](https://github.com/jeanregisser/react-native-slider/tree/0.11.0)
 
 ## Documentation
 
