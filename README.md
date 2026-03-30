@@ -4,9 +4,9 @@ This project is based on [react-native-slider@0.11.0](https://github.com/jeanreg
 
 ## Documentation
 
-- [中文](https://gitee.com/react-native-oh-library/usage-docs/blob/master/zh-cn/react-native-slider.md)
+- [中文](https://gitcode.com/OpenHarmony-RN/usage-docs/blob/master/zh-cn/react-native-slider.md)
 
-- [English](https://gitee.com/react-native-oh-library/usage-docs/blob/master/en/react-native-slider.md)
+- [English](https://gitcode.com/OpenHarmony-RN/usage-docs/blob/master/en/react-native-slider.md)
 
 ## License
 
