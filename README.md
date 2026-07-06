@@ -1,4 +1,4 @@
-# @react-native-oh-tpl/react-native-slider
+# @react-native-ohos/react-native-slider
 
 This project is based on [react-native-slider](https://github.com/jeanregisser/react-native-slider)
 
